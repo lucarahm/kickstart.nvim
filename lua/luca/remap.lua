@@ -3,6 +3,8 @@
 --  Open file tree
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
+vim.keymap.set('i', '<C-c>', '<Esc>')
+
 -- share clipboard
 vim.keymap.set({ 'n', 'v' }, '<leader>y', [["+y]])
 
